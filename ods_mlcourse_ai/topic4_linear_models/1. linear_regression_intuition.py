@@ -12,7 +12,7 @@ X.shape
 X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=0.9, shuffle=True)
 
 lr = LinearRegression(n_jobs=-1)
-lr.fit(X_train, y_train)
+lr.fit(X, y)
 
 print(lr.intercept_)
 print(lr.coef_)
