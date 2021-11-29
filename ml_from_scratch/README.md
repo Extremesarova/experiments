@@ -1,4 +1,5 @@
-##Maching Learning Algorithms From Scratch
+## Machine Learning Algorithms From Scratch
+
 The sole purpose of this small sub-repository is to understand the concepts of machine learning algorithms - how they work under their hood. </br>
 The code was not designed to be used by someone else (poorly documented, has no unit tests) - it is just a draft, investigational-purposed code. </br>
 Writing it help me grasp the idea behind the base algorithms. </br>
