@@ -1,10 +1,8 @@
 import numpy as np
+from numpy import power, sum, abs, sqrt, count_nonzero
 
 
 class KNearestNeighborsClassifier:
-    X: np.array
-    y: np.array
-
     def __init__(self, n_neighbors=3, metric='minkowski', p=2):
         self.n_neighbors = n_neighbors
         self.metric = metric
@@ -23,7 +21,7 @@ class KNearestNeighborsClassifier:
             distance = get_minkowski_distance(diff, self.p)
         sorted_dist_arg = distance.argsort()[:self.n_neighbors]
         labels_vote = self.y[sorted_dist_arg]
-        vote_dict = {key: np.count_nonzero(labels_vote == key) for key in np.unique(self.y)}
+        vote_dict = {key: count_nonzero(labels_vote == key) for key in np.unique(self.y)}
         vote_dict_sorted = sorted(vote_dict.items(), key=lambda item: item[1], reverse=True)
         return vote_dict_sorted[0][0]
 
@@ -35,8 +33,8 @@ class KNearestNeighborsClassifier:
 
 
 def get_euclidean_distance(diff):
-    return np.sqrt(np.sum(np.power(diff, 2), axis=1))
+    return sqrt(sum(power(diff, 2), axis=1))
 
 
 def get_minkowski_distance(diff, p):
-    return np.power(np.sum(np.power(np.abs(diff), p), axis=1), (1 / p))
+    return power(sum(power(abs(diff), p), axis=1), (1 / p))

@@ -9,9 +9,6 @@ from scipy.optimize import nnls
 
 
 class SciPyLinearRegressionOLS:
-    coef_: np.array
-    intercept_: float
-
     def __init__(self):
         pass
 
@@ -24,9 +21,6 @@ class SciPyLinearRegressionOLS:
 
 
 class SciPyLinearRegressionNNOLS:
-    coef_: np.array
-    intercept_: float
-
     def __init__(self):
         pass
 
@@ -39,9 +33,6 @@ class SciPyLinearRegressionNNOLS:
 
 
 class LinearRegressionOLS:
-    coef_: np.array
-    intercept_: float
-
     def __init__(self):
         pass
 
@@ -49,7 +40,7 @@ class LinearRegressionOLS:
         X = copy.deepcopy(X)
         X.insert(0, "dummy", 1)
         if det(np.matmul(X.values.T, X.values)) == 0.0:
-            print("This matrix is singular, cannot do inverse")
+            print("This matrix is singular, cannot do inverse operation")
             self.intercept_ = None
             self.coef_ = None
         else:

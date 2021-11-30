@@ -1,7 +1,7 @@
 import numpy as np
 
 
-class Scaler:
+class StandardScaler:
     def __init__(self, is_fit=False):
         self.is_fit = is_fit
 
