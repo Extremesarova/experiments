@@ -5,6 +5,10 @@ The code was not designed to be used by someone else (poorly documented, has no 
 Working through these algorithms helps me understand the idea behind them. Also, these materials will be useful to me, when I want to remember certain points of implementation and/or the algorithm, in general.</br>
 Based on this knowledge I'm mastering concepts behind the more advanced architectures, like gradient boostings, neural networks and so on.
 
+Jupyter Notebooks:
+1. [K-nearest neighbors](https://nbviewer.org/github/Extremesarova/experiments/blob/main/ml_from_scratch/knn/knn_iris.ipynb)
+2. [Regression](https://nbviewer.org/github/Extremesarova/experiments/blob/main/ml_from_scratch/linear_regression/lr_comparison.ipynb)
+
 ### Resources:
  - [Machine Learning in Action](https://www.manning.com/books/machine-learning-in-action) by Peter Harrington
  - [Scikit-Learn documentation](https://scikit-learn.org/stable/)
