@@ -18,3 +18,4 @@ Here I post my homework code and formulation of tasks [ENG] from [the course [RU
  - [Self-paced mlcourse.ai](https://github.com/Extremesarova/experiments/tree/main/ods_mlcourse_ai)
  - [Python Stepik Course](https://github.com/Extremesarova/experiments/tree/main/stepik_python)
  - [Machine Learning Algorithms From Scratch](https://github.com/Extremesarova/experiments/tree/main/ml_from_scratch)
+ - [Pandas Exercises from Rohan Rao](https://github.com/Extremesarova/experiments/tree/main/pandas_exercises)
