@@ -7,7 +7,7 @@ Based on this knowledge I'm mastering concepts behind the more advanced architec
 
 Jupyter Notebooks:
 1. [K-nearest neighbors](https://nbviewer.org/github/Extremesarova/experiments/blob/main/ml_from_scratch/knn/knn_iris.ipynb)
-2. [Regression](https://nbviewer.org/github/Extremesarova/experiments/blob/main/ml_from_scratch/linear_regression/lr_comparison.ipynb)
+2. [Linear Regression](https://nbviewer.org/github/Extremesarova/experiments/blob/main/ml_from_scratch/linear_regression/regression.ipynb)
 
 ### Resources:
  - [Machine Learning in Action](https://www.manning.com/books/machine-learning-in-action) by Peter Harrington
