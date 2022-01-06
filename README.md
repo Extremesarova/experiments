@@ -12,9 +12,6 @@ Investigational scripts:
  - [Demonstration](https://nbviewer.org/github/Extremesarova/experiments/blob/main/use_tf_lite_convertation.ipynb) of how to convert Universal Sentence Embedding Multilingual to tf-lite mode to use it for inference, for example, on mobile platforms like Android or iOS.  
 
 Learning:
- - [NLP Stepik Course](https://github.com/Extremesarova/experiments/tree/main/NLP%20Course%20Stepik "Homework for NLP course from Stepik") \
-Here I post my homework code and formulation of tasks [ENG] from [the course [RUS]](https://stepik.org/course/54098/info, "Stepik NLP Course"). 
  - [Leetcode](https://github.com/Extremesarova/experiments/tree/main/leetcode)
  - [Self-paced mlcourse.ai](https://github.com/Extremesarova/experiments/tree/main/ods_mlcourse_ai)
  - [Python Stepik Course](https://github.com/Extremesarova/experiments/tree/main/stepik_python)
- - [Machine Learning Algorithms From Scratch](https://github.com/Extremesarova/experiments/tree/main/ml_from_scratch)
