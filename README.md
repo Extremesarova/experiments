@@ -1,8 +1,15 @@
 # Experiments
 This is a repository with some useful information. \
 Notebooks:
- - Classification:
-   - [Sarcasm prediction (binary, 1M rows)](https://nbviewer.org/github/Extremesarova/experiments/blob/80fae76cb94288155417735cae9b06aa171ec6b1/ods_mlcourse_ai/topic4_linear_models/a4-demo-sarcasm-detection-with-logit.ipynb)
+* Classification:
+  * [Sarcasm prediction (binary, 1M rows)](https://nbviewer.org/github/Extremesarova/experiments/blob/80fae76cb94288155417735cae9b06aa171ec6b1/ods_mlcourse_ai/topic4_linear_models/a4-demo-sarcasm-detection-with-logit.ipynb) `jupyter notebook`
+
+Courses:
+* Algoprog
+  * Level 1
+    * [Arithmetic operations](https://nbviewer.org/github/Extremesarova/experiments/blob/main/algoprog/level_1/level_1a_arithmetic_operations.ipynb) `jupyter notebook`
+* Leetcode
+  * [Arrays 101](https://nbviewer.org/github/Extremesarova/experiments/blob/main/leetcode/explore/arrays_101.ipynb) `jupyter notebook`
 
 Investigational scripts:
  - [Full-Text search in SQLite](https://github.com/Extremesarova/experiments/blob/main/fts_sqlite.ipynb "fts_sqlite.ipynb") \
@@ -12,6 +19,6 @@ Investigational scripts:
  - [Demonstration](https://nbviewer.org/github/Extremesarova/experiments/blob/main/use_tf_lite_convertation.ipynb) of how to convert Universal Sentence Embedding Multilingual to tf-lite mode to use it for inference, for example, on mobile platforms like Android or iOS.  
 
 Learning:
- - [Leetcode](https://github.com/Extremesarova/experiments/tree/main/leetcode)
+ - [Leetcode problems](https://github.com/Extremesarova/experiments/tree/main/leetcode/problems)
  - [Self-paced mlcourse.ai](https://github.com/Extremesarova/experiments/tree/main/ods_mlcourse_ai)
  - [Python Stepik Course](https://github.com/Extremesarova/experiments/tree/main/stepik_python)
