@@ -1,7 +1,7 @@
 def main():
     n = int(input())
 
-    print(n % 100 // 10)
+    print(n // 60 % 24, n % 60)
 
 
 if __name__ == '__main__':
